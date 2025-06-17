@@ -1,4 +1,3 @@
-@"
 # 🚀 YoloApp – Trivy Technologies Assignment
 
 A pixel-perfect, animated, and dynamic mobile application built with **React Native (Expo)** as part of the **Trivy Technologies Internship Assignment**. The app demonstrates **UI/UX finesse**, **dynamic data integration**, and **interactive features** tailored to real-world mobile development standards.
