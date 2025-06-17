@@ -101,4 +101,3 @@ This project was developed as part of the **Trivy Technologies Internship Proces
 **Aditya Dharawat**  
 📧 [LinkedIn](https://linkedin.com/in/adityadharawat)  
 🌐 [GitHub](https://github.com/AdityaDharawat)  
-"@ > README.md
