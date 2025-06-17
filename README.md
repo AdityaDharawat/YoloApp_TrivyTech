@@ -1,50 +1,105 @@
-# Welcome to your Expo app 👋
+@"
+# 🚀 YoloApp – Trivy Technologies Assignment
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A pixel-perfect, animated, and dynamic mobile application built with **React Native (Expo)** as part of the **Trivy Technologies Internship Assignment**. The app demonstrates **UI/UX finesse**, **dynamic data integration**, and **interactive features** tailored to real-world mobile development standards.
 
-## Get started
+---
 
-1. Install dependencies
+## 🧩 Features
 
-   ```bash
-   npm install
-   ```
+- 🎨 **Pixel-perfect UI** from provided Figma designs  
+- 🔄 **Freeze/Unfreeze** card animation with front/back view toggle  
+- 📦 **Dynamic data generation** using `@faker-js/faker`  
+- 🔗 **REST API integration** for real-time data rendering  
+- 📱 **Cross-platform support** via Expo  
+- 🧭 **Smooth bottom tab navigation** using `@react-navigation/bottom-tabs`  
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 🖼️ Screens
 
-In the output, you'll find options to open the app in a
+- **🔐 Home Screen** – Overview with user-friendly cards and navigation  
+- **📊 Dashboard** – Real-time data display with API integration  
+- **🧠 YoloPay** – Advanced view toggles with animated transitions  
+- **✨ Genie Screen** – Smart assistant-style UI with future expandability  
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🛠️ Tech Stack
 
-## Get a fresh project
+| Tech                 | Description                                  |
+|----------------------|----------------------------------------------|
+| React Native (Expo)  | Cross-platform mobile development            |
+| TypeScript           | Strongly typed, scalable codebase            |
+| Faker.js             | Dynamic fake data generation                 |
+| Axios                | REST API communication                       |
+| React Navigation     | Seamless screen transitions & routing        |
+| Vector Icons         | Custom iconography with `react-native-vector-icons` |
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
+## 📁 Project Structure
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+\`\`\`
+YoloApp/
+│
+├── components/        # Reusable UI components
+├── screens/           # Main screen UIs (Home, Genie, YoloPay, etc.)
+├── navigation/        # Bottom tab and stack navigators
+├── utils/             # Utility functions and faker data
+├── app/               # Entry point for Expo apps
+├── assets/            # Static images/icons
+└── index.tsx          # App bootstrap file
+\`\`\`
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## 🧪 How to Run
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+\`\`\`bash
+# Clone the repo
+git clone https://github.com/AdityaDharawat/YoloApp_TrivyTech.git
 
-## Join the community
+# Navigate into project
+cd YoloApp_TrivyTech
 
-Join our community of developers creating universal apps.
+# Install dependencies
+npm install
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# Start Expo app
+npx expo start
+\`\`\`
+
+---
+
+## 🧠 Learnings & Highlights
+
+- Built robust **component-based architecture** using TypeScript  
+- Implemented **stateful animations** and data refresh cycles  
+- Gained deeper understanding of **mobile UI fidelity** and performance  
+- Balanced **design requirements** with **real-world development constraints**  
+
+---
+
+## 🏁 Deliverable Criteria Checklist
+
+- [x] Pixel-perfect UI implementation ✅  
+- [x] Front/back card toggle with animation ✅  
+- [x] Data refresh using `faker.js` ✅  
+- [x] API integration & live data rendering ✅  
+- [x] Bottom navigation structure ✅  
+
+---
+
+## 🙌 Acknowledgements
+
+This project was developed as part of the **Trivy Technologies Internship Process** and reflects practical knowledge of real-world React Native development workflows.
+
+---
+
+## 📬 Contact
+
+**Aditya Dharawat**  
+📧 [LinkedIn](https://linkedin.com/in/adityadharawat)  
+🌐 [GitHub](https://github.com/AdityaDharawat)  
+"@ > README.md
